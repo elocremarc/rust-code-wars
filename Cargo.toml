@@ -1,0 +1,12 @@
+[package]
+name = "rust-code-wars"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_code_wars"
+path = "src/lib.rs"
+
+[[test]]
+name = "integration_tests"
+path = "tests/integration_tests.rs"
